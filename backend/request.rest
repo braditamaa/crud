@@ -1,0 +1,26 @@
+# POST http://localhost:8000/users HTTP/1.1
+# Content-Type: application/json
+
+
+# {
+#     "name": " aa",
+#     "email": "aa",
+#     "gender": "aa"
+# }
+
+# ###
+# GET http://localhost:8000/users HTTP/1.1
+
+
+###
+GET http://localhost:8000/users/31 HTTP/1.1
+
+###
+PATCH http://localhost:8000/users/31 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": " Bagus Rizky Aditama",
+    "email": "brizkyaditama@gmail.com",
+    "gender": "Male"
+}
